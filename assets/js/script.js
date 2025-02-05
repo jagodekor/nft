@@ -54,3 +54,30 @@ window.addEventListener("scroll", function () {
     backTopBtn.classList.remove("active");
   }
 });
+
+document.getElementById('newsletterForm').addEventListener('submit', function (event) {
+  event.preventDefault(); 
+
+  setTimeout(() => {
+
+    document.querySelector('.newsletter-input').style.display = 'none';
+    document.querySelector('.newsletter-btn').style.display = 'none';
+
+
+    const successMessage = document.getElementById('successMessage');
+    successMessage.style.display = 'block';
+
+
+    setTimeout(() => {
+
+      document.getElementById('newsletterForm').reset();
+
+  
+      document.querySelector('.newsletter-input').style.display = 'block';
+      document.querySelector('.newsletter-btn').style.display = 'block';
+
+
+      successMessage.style.display = 'none';
+    }, 5000);
+  }, 1000); 
+});

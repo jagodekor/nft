@@ -1107,17 +1107,23 @@
         </ul>
 
         <div class="footer-list">
-
           <p class="footer-list-title">Subscribe Us</p>
-
-          <form action="" class="newsletter-form">
-            <input type="email" name="email" placeholder="info@yourmail.com" required class="newsletter-input">
-
+          <form action="" class="newsletter-form" id="newsletterForm">
+            <input 
+              type="email" 
+              name="email" 
+              placeholder="info@yourmail.com" 
+              required 
+              class="newsletter-input"
+            >
             <button type="submit" class="newsletter-btn" aria-label="Submit">
               <ion-icon name="paper-plane-outline"></ion-icon>
             </button>
+            <!-- Success Message -->
+            <div id="successMessage" class="success-message" style="display: none;">
+              <p class="success-text">Thank you for subscribing! Stay tuned for updates.</p>
+            </div>
           </form>
-
         </div>
 
       </div>
