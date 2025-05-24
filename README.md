@@ -13,7 +13,7 @@
 
   NFTC is fully responsive nft website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
 
-  <a href="https://codewithsadee.github.io/nftc/"><strong>➥ Live Demo</strong></a>
+  <a href="https://jagodekor.github.io/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
